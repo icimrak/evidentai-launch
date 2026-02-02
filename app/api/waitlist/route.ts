@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { isValidEmail } from "@/lib/email";
+import { isValidEmail } from "../../../lib/email";
 
 type Payload = { email?: string };
 
